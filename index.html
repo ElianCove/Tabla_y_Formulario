@@ -1,0 +1,65 @@
+<!DOCTYPE html> <!--Agregar el tipo de documento --> 
+<html lang="en"><!-- Agregamos el leguaje --> 
+<head>
+    
+    <title>Tabla y Formulario</title> <!-- Le añadimos titulo a nuestra página --> 
+    <link rel="stylesheet" href="style.css"> <!-- este es el link de los estilos en css, para conectarse --> 
+   
+</head>
+<body>
+    <table class="styled-table"><!-- Iniciamos nuestra etiqueta para crear la tabla y le añadimos una clase y un nombre a esa clase  --> 
+    <thead><!-- será el encabezado de la tabla --> 
+        <tr><!-- Será una fila de nuestra tabla --> 
+            <th>N Socio</th>
+            <th>Apellidos</th>
+            <th>Nombres</th><!-- Son las celdas que seran el encabezado de la tabla --> 
+            <th>Ciudad</th>
+            <th>Fecha Inicio</th>
+        </tr>
+    </thead>
+    <tbody> <!-- Define el cuerpo de nuestra tabla --> 
+        <tr>
+            <td>2423</td>
+            <td>Pérez Martínez</td>
+            <td>Juan José</td>
+            <td>Portoviejo</td> <!-- Son las celdas de nuestra tabla que contienen datos --> 
+            <td>2022-11-01</td>
+        </tr>
+        <tr>
+            <td>4438</td>
+            <td>Martínez Gómez</td>
+            <td>María Beatriz</td>
+            <td>Manta</td>
+            <td>2022-01-01</td>
+        </tr>
+        <tr>
+            <td>4334</td>
+            <td>Gómez Rodríguez</td>
+            <td>Carlos Alberto</td>
+            <td>Chone</td>
+            <td>2022-05-01</td>
+        </tr>
+        <tr>
+            <td>4523</td>
+            <td>Rodríguez Moreno</td>
+            <td>Sofía Ana</td>
+            <td>Bahía</td>
+            <td>2022-02-01</td>
+        </tr>
+    </tbody>
+    </table>
+    <form action="prueba.php" method="post " class="formu" > <!-- Iniciamos el formulario, lo guardamos en prueba.php y le damos el nombre a la clase --> 
+    <h1 class="h1">Ingreso de Socios</h1>
+    <input type="text" name="Nombres" placeholder="Ingrese sus Nombres"> <!-- creamos un contro interactivo que sirve para ingresar el nombre --> 
+    <input type="text" name="Apellidos" placeholder="Ingrese sus Apellidos"><!-- aqui se ingresa el apellido --> 
+    <input type="text" name="Ciudad" placeholder="Igrese su Ciudad"><!-- con placeholder colocames de fondo en la casilla lo que queremos que el usuario digite --> 
+    <input type="date" name="Fecha-Inicio">
+    <input type="file" name="Foto" ><!-- en este caso como es foto se coloca files  --> 
+    <input type="file" name="Comprobante" > 
+     <input type="submit" value="Registrar">
+     <input type="submit" value="Salir">
+
+
+</form>
+</body>
+</html>

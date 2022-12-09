@@ -1,0 +1,35 @@
+.styled-table { /* llamamos a la clase  */
+    border-collapse: collapse; /* Fusionamos los bordes de la tabla */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;/* le agregamos un tipo de letra */
+    min-width: 600px; /* determinamos la anchura minimima que tendra la tabla */
+    box-shadow: 0 0 20px; /* le añadimos un efecto de sombra alrededor de la tabla */
+    margin: auto; /* establecemos los margenes */
+}
+
+.styled-table thead tr{ /* le decimos que trabajaremos en la cabecera de la tabla */
+
+    background-color: aquamarine;/* le damos un color de fondo al encabezado */
+    text-align: middle; /* Alineamos el texto */
+
+}
+.styled-table th,
+.styled-table td { /* trabajaremos en las celdas th y td */
+
+    padding: 12px 15px; /* establecemos el relleno de cada elemento */
+}
+.h1{
+    color: palegreen;/* Le damos color al titulo de nuestro formulario */
+    font-family:'Times New Roman', Times, serif;/* le colocamos el tipo de letra */
+}
+.formu{ /* afectaremos nuestro formulario */
+    
+    width: 300px;/* especificamos la anchura de nuestro formulario */
+    background: pink;/* le damos color al fondo de nuestro formulario */
+    font: 15px;/* le damos el tamaño a las letras */
+    margin: auto;/* colocamos los margenes */
+    margin-top: 150px;/* establecemos la altura del margen superior */
+    border: 2px solid green;/* le damos un grosor y color al borde de nuestro formulario  */
+    padding: 20px ;/* establecemos el relleno de cada elemento */
+    box-shadow: 10px 10px 10px;/* le añadimos un efecto de sombra alrededor de la tabla */
+    
+   }
